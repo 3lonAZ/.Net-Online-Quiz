@@ -1,0 +1,72 @@
+body {
+  background: #341f97;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato";
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #341f97;
+}
+
+.award_icon {
+  display: block;
+  font-size: 300px;
+  color: #fff;
+}
+#congratulations {
+    margin:auto;
+}
+#true_reply_count, #false_reply_count {
+    margin-left: 5px;
+    font-weight: bold;
+}
+#true_reply_count{
+    
+    color:#4cff00;
+}
+#false_reply_count {
+    color: red;
+}
+.username,
+.userpoints,
+.usertime {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+div p {
+    font-size:20px;
+}
+#HomeBTN {
+    width: 250px;
+    height: 55px;
+    color: #341f97;
+    text-align:center;
+    margin:40px auto 0 auto;
+    box-sizing:border-box;
+    border: 2px solid white;
+    border-radius: 125px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    font: bold 20px Verdana;
+    letter-spacing: 1px;
+    transition: 0.40s all;
+}
+#HomeBTN:active {
+    transform: scale(0.90);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
